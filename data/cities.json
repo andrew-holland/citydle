@@ -1,0 +1,549 @@
+{
+    "version": 1,
+    "source": "Hand-curated prototype city catalogue; see README before redistributing or expanding.",
+    "cities": [
+        {
+            "id": "accra-gh",
+            "name": "Accra",
+            "country": "Ghana",
+            "continent": "Africa",
+            "latitude": 5.6037,
+            "longitude": -0.187,
+            "aliases": []
+        },
+        {
+            "id": "addis-ababa-et",
+            "name": "Addis Ababa",
+            "country": "Ethiopia",
+            "continent": "Africa",
+            "latitude": 8.9806,
+            "longitude": 38.7578,
+            "aliases": []
+        },
+        {
+            "id": "algiers-dz",
+            "name": "Algiers",
+            "country": "Algeria",
+            "continent": "Africa",
+            "latitude": 36.7538,
+            "longitude": 3.0588,
+            "aliases": []
+        },
+        {
+            "id": "amman-jo",
+            "name": "Amman",
+            "country": "Jordan",
+            "continent": "Asia",
+            "latitude": 31.9539,
+            "longitude": 35.9106,
+            "aliases": []
+        },
+        {
+            "id": "amsterdam-nl",
+            "name": "Amsterdam",
+            "country": "Netherlands",
+            "continent": "Europe",
+            "latitude": 52.3676,
+            "longitude": 4.9041,
+            "aliases": []
+        },
+        {
+            "id": "ankara-tr",
+            "name": "Ankara",
+            "country": "Turkey",
+            "continent": "Asia",
+            "latitude": 39.9334,
+            "longitude": 32.8597,
+            "aliases": []
+        },
+        {
+            "id": "athens-gr",
+            "name": "Athens",
+            "country": "Greece",
+            "continent": "Europe",
+            "latitude": 37.9838,
+            "longitude": 23.7275,
+            "aliases": []
+        },
+        {
+            "id": "auckland-nz",
+            "name": "Auckland",
+            "country": "New Zealand",
+            "continent": "Oceania",
+            "latitude": -36.8509,
+            "longitude": 174.7645,
+            "aliases": []
+        },
+        {
+            "id": "baghdad-iq",
+            "name": "Baghdad",
+            "country": "Iraq",
+            "continent": "Asia",
+            "latitude": 33.3152,
+            "longitude": 44.3661,
+            "aliases": []
+        },
+        {
+            "id": "bangkok-th",
+            "name": "Bangkok",
+            "country": "Thailand",
+            "continent": "Asia",
+            "latitude": 13.7563,
+            "longitude": 100.5018,
+            "aliases": []
+        },
+        {
+            "id": "beijing-cn",
+            "name": "Beijing",
+            "country": "China",
+            "continent": "Asia",
+            "latitude": 39.9042,
+            "longitude": 116.4074,
+            "aliases": []
+        },
+        {
+            "id": "berlin-de",
+            "name": "Berlin",
+            "country": "Germany",
+            "continent": "Europe",
+            "latitude": 52.52,
+            "longitude": 13.405,
+            "aliases": []
+        },
+        {
+            "id": "bogota-co",
+            "name": "Bogota",
+            "country": "Colombia",
+            "continent": "South America",
+            "latitude": 4.711,
+            "longitude": -74.0721,
+            "aliases": [
+                "Bogotá"
+            ]
+        },
+        {
+            "id": "brasilia-br",
+            "name": "Brasilia",
+            "country": "Brazil",
+            "continent": "South America",
+            "latitude": -15.7939,
+            "longitude": -47.8828,
+            "aliases": [
+                "Brasília"
+            ]
+        },
+        {
+            "id": "brussels-be",
+            "name": "Brussels",
+            "country": "Belgium",
+            "continent": "Europe",
+            "latitude": 50.8503,
+            "longitude": 4.3517,
+            "aliases": []
+        },
+        {
+            "id": "cairo-eg",
+            "name": "Cairo",
+            "country": "Egypt",
+            "continent": "Africa",
+            "latitude": 30.0444,
+            "longitude": 31.2357,
+            "aliases": []
+        },
+        {
+            "id": "cape-town-za",
+            "name": "Cape Town",
+            "country": "South Africa",
+            "continent": "Africa",
+            "latitude": -33.9249,
+            "longitude": 18.4241,
+            "aliases": []
+        },
+        {
+            "id": "casablanca-ma",
+            "name": "Casablanca",
+            "country": "Morocco",
+            "continent": "Africa",
+            "latitude": 33.5731,
+            "longitude": -7.5898,
+            "aliases": []
+        },
+        {
+            "id": "delhi-in",
+            "name": "Delhi",
+            "country": "India",
+            "continent": "Asia",
+            "latitude": 28.6139,
+            "longitude": 77.209,
+            "aliases": [
+                "New Delhi"
+            ]
+        },
+        {
+            "id": "dhaka-bd",
+            "name": "Dhaka",
+            "country": "Bangladesh",
+            "continent": "Asia",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "aliases": []
+        },
+        {
+            "id": "doha-qa",
+            "name": "Doha",
+            "country": "Qatar",
+            "continent": "Asia",
+            "latitude": 25.2854,
+            "longitude": 51.531,
+            "aliases": []
+        },
+        {
+            "id": "dubai-ae",
+            "name": "Dubai",
+            "country": "United Arab Emirates",
+            "continent": "Asia",
+            "latitude": 25.2048,
+            "longitude": 55.2708,
+            "aliases": []
+        },
+        {
+            "id": "dublin-ie",
+            "name": "Dublin",
+            "country": "Ireland",
+            "continent": "Europe",
+            "latitude": 53.3498,
+            "longitude": -6.2603,
+            "aliases": []
+        },
+        {
+            "id": "helsinki-fi",
+            "name": "Helsinki",
+            "country": "Finland",
+            "continent": "Europe",
+            "latitude": 60.1699,
+            "longitude": 24.9384,
+            "aliases": []
+        },
+        {
+            "id": "istanbul-tr",
+            "name": "Istanbul",
+            "country": "Turkey",
+            "continent": "Europe",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "aliases": [
+                "İstanbul"
+            ]
+        },
+        {
+            "id": "jakarta-id",
+            "name": "Jakarta",
+            "country": "Indonesia",
+            "continent": "Asia",
+            "latitude": -6.2088,
+            "longitude": 106.8456,
+            "aliases": []
+        },
+        {
+            "id": "karachi-pk",
+            "name": "Karachi",
+            "country": "Pakistan",
+            "continent": "Asia",
+            "latitude": 24.8607,
+            "longitude": 67.0011,
+            "aliases": []
+        },
+        {
+            "id": "kathmandu-np",
+            "name": "Kathmandu",
+            "country": "Nepal",
+            "continent": "Asia",
+            "latitude": 27.7172,
+            "longitude": 85.324,
+            "aliases": []
+        },
+        {
+            "id": "lagos-ng",
+            "name": "Lagos",
+            "country": "Nigeria",
+            "continent": "Africa",
+            "latitude": 6.5244,
+            "longitude": 3.3792,
+            "aliases": []
+        },
+        {
+            "id": "lima-pe",
+            "name": "Lima",
+            "country": "Peru",
+            "continent": "South America",
+            "latitude": -12.0464,
+            "longitude": -77.0428,
+            "aliases": []
+        },
+        {
+            "id": "lisbon-pt",
+            "name": "Lisbon",
+            "country": "Portugal",
+            "continent": "Europe",
+            "latitude": 38.7223,
+            "longitude": -9.1393,
+            "aliases": []
+        },
+        {
+            "id": "london-gb",
+            "name": "London",
+            "country": "United Kingdom",
+            "continent": "Europe",
+            "latitude": 51.5072,
+            "longitude": -0.1276,
+            "aliases": []
+        },
+        {
+            "id": "los-angeles-us",
+            "name": "Los Angeles",
+            "country": "United States",
+            "continent": "North America",
+            "latitude": 34.0522,
+            "longitude": -118.2437,
+            "aliases": [
+                "LA"
+            ]
+        },
+        {
+            "id": "madrid-es",
+            "name": "Madrid",
+            "country": "Spain",
+            "continent": "Europe",
+            "latitude": 40.4168,
+            "longitude": -3.7038,
+            "aliases": []
+        },
+        {
+            "id": "manila-ph",
+            "name": "Manila",
+            "country": "Philippines",
+            "continent": "Asia",
+            "latitude": 14.5995,
+            "longitude": 120.9842,
+            "aliases": []
+        },
+        {
+            "id": "mexico-city-mx",
+            "name": "Mexico City",
+            "country": "Mexico",
+            "continent": "North America",
+            "latitude": 19.4326,
+            "longitude": -99.1332,
+            "aliases": [
+                "Ciudad de Mexico"
+            ]
+        },
+        {
+            "id": "moscow-ru",
+            "name": "Moscow",
+            "country": "Russia",
+            "continent": "Europe",
+            "latitude": 55.7558,
+            "longitude": 37.6173,
+            "aliases": []
+        },
+        {
+            "id": "mumbai-in",
+            "name": "Mumbai",
+            "country": "India",
+            "continent": "Asia",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "aliases": [
+                "Bombay"
+            ]
+        },
+        {
+            "id": "nairobi-ke",
+            "name": "Nairobi",
+            "country": "Kenya",
+            "continent": "Africa",
+            "latitude": -1.2921,
+            "longitude": 36.8219,
+            "aliases": []
+        },
+        {
+            "id": "new-york-us",
+            "name": "New York",
+            "country": "United States",
+            "continent": "North America",
+            "latitude": 40.7128,
+            "longitude": -74.006,
+            "aliases": [
+                "New York City",
+                "NYC"
+            ]
+        },
+        {
+            "id": "oslo-no",
+            "name": "Oslo",
+            "country": "Norway",
+            "continent": "Europe",
+            "latitude": 59.9139,
+            "longitude": 10.7522,
+            "aliases": []
+        },
+        {
+            "id": "paris-fr",
+            "name": "Paris",
+            "country": "France",
+            "continent": "Europe",
+            "latitude": 48.8566,
+            "longitude": 2.3522,
+            "aliases": []
+        },
+        {
+            "id": "reykjavik-is",
+            "name": "Reykjavik",
+            "country": "Iceland",
+            "continent": "Europe",
+            "latitude": 64.1466,
+            "longitude": -21.9426,
+            "aliases": [
+                "Reykjavík"
+            ]
+        },
+        {
+            "id": "rio-de-janeiro-br",
+            "name": "Rio de Janeiro",
+            "country": "Brazil",
+            "continent": "South America",
+            "latitude": -22.9068,
+            "longitude": -43.1729,
+            "aliases": []
+        },
+        {
+            "id": "rome-it",
+            "name": "Rome",
+            "country": "Italy",
+            "continent": "Europe",
+            "latitude": 41.9028,
+            "longitude": 12.4964,
+            "aliases": []
+        },
+        {
+            "id": "santiago-cl",
+            "name": "Santiago",
+            "country": "Chile",
+            "continent": "South America",
+            "latitude": -33.4489,
+            "longitude": -70.6693,
+            "aliases": []
+        },
+        {
+            "id": "sao-paulo-br",
+            "name": "Sao Paulo",
+            "country": "Brazil",
+            "continent": "South America",
+            "latitude": -23.5505,
+            "longitude": -46.6333,
+            "aliases": [
+                "São Paulo"
+            ]
+        },
+        {
+            "id": "seoul-kr",
+            "name": "Seoul",
+            "country": "South Korea",
+            "continent": "Asia",
+            "latitude": 37.5665,
+            "longitude": 126.978,
+            "aliases": []
+        },
+        {
+            "id": "singapore-sg",
+            "name": "Singapore",
+            "country": "Singapore",
+            "continent": "Asia",
+            "latitude": 1.3521,
+            "longitude": 103.8198,
+            "aliases": []
+        },
+        {
+            "id": "stockholm-se",
+            "name": "Stockholm",
+            "country": "Sweden",
+            "continent": "Europe",
+            "latitude": 59.3293,
+            "longitude": 18.0686,
+            "aliases": []
+        },
+        {
+            "id": "sydney-au",
+            "name": "Sydney",
+            "country": "Australia",
+            "continent": "Oceania",
+            "latitude": -33.8688,
+            "longitude": 151.2093,
+            "aliases": []
+        },
+        {
+            "id": "taipei-tw",
+            "name": "Taipei",
+            "country": "Taiwan",
+            "continent": "Asia",
+            "latitude": 25.033,
+            "longitude": 121.5654,
+            "aliases": []
+        },
+        {
+            "id": "tokyo-jp",
+            "name": "Tokyo",
+            "country": "Japan",
+            "continent": "Asia",
+            "latitude": 35.6762,
+            "longitude": 139.6503,
+            "aliases": []
+        },
+        {
+            "id": "toronto-ca",
+            "name": "Toronto",
+            "country": "Canada",
+            "continent": "North America",
+            "latitude": 43.6532,
+            "longitude": -79.3832,
+            "aliases": []
+        },
+        {
+            "id": "vancouver-ca",
+            "name": "Vancouver",
+            "country": "Canada",
+            "continent": "North America",
+            "latitude": 49.2827,
+            "longitude": -123.1207,
+            "aliases": []
+        },
+        {
+            "id": "vienna-at",
+            "name": "Vienna",
+            "country": "Austria",
+            "continent": "Europe",
+            "latitude": 48.2082,
+            "longitude": 16.3738,
+            "aliases": []
+        },
+        {
+            "id": "warsaw-pl",
+            "name": "Warsaw",
+            "country": "Poland",
+            "continent": "Europe",
+            "latitude": 52.2297,
+            "longitude": 21.0122,
+            "aliases": []
+        },
+        {
+            "id": "wellington-nz",
+            "name": "Wellington",
+            "country": "New Zealand",
+            "continent": "Oceania",
+            "latitude": -41.2866,
+            "longitude": 174.7756,
+            "aliases": []
+        }
+    ]
+}
