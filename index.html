@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f3">
+  <meta name="description" content="Find today's mystery city from directional clues in six guesses.">
+  <title>Citydle | A daily geography puzzle</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="Citydle home">CITYDLE<span>.</span></a>
+      <p class="edition" id="puzzle-date">DAILY CITY PUZZLE</p>
+      <a class="about-link" href="#how-to-play">How to play</a>
+    </header>
+
+    <section class="game-layout" aria-labelledby="game-title">
+      <div class="intro">
+        <p class="eyebrow">A WORLD OF SIX GUESSES</p>
+        <h1 id="game-title">Find your<br><span>way to the city.</span></h1>
+        <p class="intro-copy">Read the arrows. Follow the place names. Where in the world are you?</p>
+        <div class="score-line" aria-live="polite">
+          <div><span class="metric-label">SCORE</span><strong id="score-value">1,000</strong></div>
+          <div><span class="metric-label">GUESSES LEFT</span><strong id="guesses-left">6</strong></div>
+        </div>
+      </div>
+
+      <section class="play-panel" aria-label="Daily city puzzle">
+        <div class="mode-banner" id="practice-banner" hidden>
+          <span>Practice scenario · today's puzzle is saved separately</span>
+          <button id="daily-mode-button" type="button">Return to today's puzzle</button>
+        </div>
+        <div class="board-heading">
+          <div>
+            <p class="eyebrow">YOUR COMPASS</p>
+            <h2>Where are you?</h2>
+          </div>
+          <span class="attempt-count" id="attempt-count">0 / 6</span>
+        </div>
+
+        <div class="clue-board" id="clue-board" aria-label="Directional city clues">
+          <div class="clue-slot slot-north" data-direction="N"></div>
+          <div class="clue-slot slot-northeast" data-direction="NE"></div>
+          <div class="clue-slot slot-east" data-direction="E"></div>
+          <div class="clue-slot slot-southeast" data-direction="SE"></div>
+          <div class="clue-slot slot-south" data-direction="S"></div>
+          <div class="clue-slot slot-southwest" data-direction="SW"></div>
+          <div class="clue-slot slot-west" data-direction="W"></div>
+          <div class="clue-slot slot-northwest" data-direction="NW"></div>
+          <div class="guess-center">
+            <span class="center-mark" aria-hidden="true">?</span>
+            <label for="city-guess">Mystery city</label>
+            <form id="guess-form" autocomplete="off">
+              <input id="city-guess" name="city" type="text" placeholder="Type a city name" aria-describedby="form-message" list="city-suggestions" required>
+              <datalist id="city-suggestions"></datalist>
+              <button class="submit-button" type="submit" aria-label="Submit city guess">&#8594;</button>
+            </form>
+          </div>
+        </div>
+        <p class="form-message" id="form-message" role="status" aria-live="polite">The arrows point outward from the mystery city.</p>
+
+        <div class="hint-row" aria-label="Available hints">
+          <button class="hint-button" type="button" data-hint="arrow" title="Reveal another directional clue (75 points)">
+            <span aria-hidden="true">&#8599;</span><span>Add arrow</span><small>-75</small>
+          </button>
+          <button class="hint-button" type="button" data-hint="continentArrow" title="Add an arrow to a city on the target's continent (125 points)">
+            <span aria-hidden="true">&#9678;</span><span>Region arrow</span><small>-125</small>
+          </button>
+          <button class="hint-button" type="button" data-hint="distance" title="Reveal distance from your latest guess (125 points)">
+            <span aria-hidden="true">&#8644;</span><span>Distance</span><small>-125</small>
+          </button>
+        </div>
+        <p class="hint-message" id="hint-message" aria-live="polite"></p>
+
+        <section class="guess-section" aria-labelledby="guess-title">
+          <div class="section-heading">
+            <h3 id="guess-title">Your route</h3>
+            <span>Correct city ends the game</span>
+          </div>
+          <ol class="guess-list" id="guess-list" aria-live="polite"></ol>
+        </section>
+
+        <section class="result-panel" id="result-panel" hidden aria-labelledby="result-title">
+          <div>
+            <p class="eyebrow" id="result-kicker">PUZZLE COMPLETE</p>
+            <h3 id="result-title"></h3>
+            <p id="result-detail"></p>
+          </div>
+          <form class="username-form" id="username-form">
+            <label for="username">Save your result with a name <span>(optional)</span></label>
+            <div class="username-controls">
+              <input id="username" name="username" maxlength="24" placeholder="Your name">
+              <button type="submit">Save result</button>
+            </div>
+            <p id="save-message" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </section>
+    </section>
+
+    <section class="how-to-play" id="how-to-play" aria-labelledby="how-title">
+      <div class="how-heading">
+        <p class="eyebrow">THE FIELD GUIDE</p>
+        <h2 id="how-title">Read the world<br>one clue at a time.</h2>
+      </div>
+      <div class="guide-steps">
+        <article><span>01</span><h3>Follow the bearing</h3><p>Each arrow points from the mystery city toward a named city. Its compass position tells you the direction.</p></article>
+        <article><span>02</span><h3>Spend clues wisely</h3><p>Add an arrow, find a city in the target's continent, or measure its distance from your guess. Every hint costs points.</p></article>
+        <article><span>03</span><h3>Make it count</h3><p>Find the target in six guesses. Everyone shares today's puzzle, and your progress stays on this device.</p></article>
+      </div>
+    </section>
+
+    <section class="practice-launch" aria-labelledby="practice-title">
+      <div>
+        <p class="eyebrow">NO DAILY STREAK AT STAKE</p>
+        <h2 id="practice-title">Take another route.</h2>
+        <p>Practice with a random city. Each new scenario starts with six guesses and a fresh score.</p>
+      </div>
+      <button id="practice-button" type="button">Practice a random city <span aria-hidden="true">&#8599;</span></button>
+    </section>
+
+    <footer class="footer"><span>CITYDLE / DAILY GEOGRAPHY</span><span>NEW PUZZLE AT 00:00 UTC</span></footer>
+  </main>
+</body>
+</html>
